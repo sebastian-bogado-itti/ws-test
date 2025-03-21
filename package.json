@@ -2,12 +2,14 @@
   "name": "websocket-client",
   "version": "1.0.0",
   "description": "Client for WebSocket STOMP communication",
-  "main": "index.js",
+  "main": "simulateClients.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node simulateClients.js"
   },
   "dependencies": {
-    "@stomp/stompjs": "^7.0.0", 
-    "sockjs-client": "^1.6.1"
+    "@stomp/stompjs": "^7.0.1",
+    "axios": "^1.8.4",
+    "sockjs-client": "^1.6.1",
+    "ws": "^8.18.1"
   }
 }
